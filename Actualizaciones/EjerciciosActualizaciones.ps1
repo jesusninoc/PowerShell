@@ -1,4 +1,4 @@
-#Listar por descripción de las actualizaciones instaladas en el equipo
+#Listar por descripción las actualizaciones instaladas en el equipo
 Get-HotFix | Select-Object Description
 (Get-HotFix).Description
 
