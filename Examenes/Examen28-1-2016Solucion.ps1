@@ -23,7 +23,7 @@ $instalados=((Get-WmiObject -Class Win32_Product).name)
 $programas=(Get-Process).name
 
 #Guardar todos los listados en un fichero
-$actualizaciones,$instalados,$programas | notepad D:\power\datosprogramas.txt
+$actualizaciones,$instalados,$programas | Out-File D:\power\datosprogramas.txt
 
 
 #Ejercicio B
