@@ -26,3 +26,19 @@ Set-Location D:\power\procesos
 $fichero=$_.Name + ".txt"
 New-Item -itemType File -Path $_.Name -Name $fichero -Value (Get-FileHash $_.Path -Algorithm SHA1)
 }
+
+#Tenemos un problema, el script se ejecuta tan rápido que no podemos ver el contenido de la variable $valors2, comenta algunas solución para resolver el problema.
+
+$valors1=Get-HotFix | Select-Object HotFixID
+$valors2=Get-WmiObject -Class Win32_Product | Select-Object name
+$valors1
+Start-Sleep -Seconds 5
+$valors2 | Out-File nombreproducto.txt
+gc nombreproducto.txt
+
+#----------
+#Linux
+#----------
+#Crear un script en el que pida un nombre al usuario y si el nombre es 'pepito' que almacene dicho nombre en un fichero.
+
+#Recorrer un fichero que tiene nombres de personas y si la persona que está dentro del fichero es 'pepito' almacenar dicho nombre en un fichero.
