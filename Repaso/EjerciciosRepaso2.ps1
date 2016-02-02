@@ -1,4 +1,4 @@
-##Introducción (ejemplos clase 1)
+##Introducción (ejemplos clase 2)
 
 #Variables
 #Operaciones aritméticas
