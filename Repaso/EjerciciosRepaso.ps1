@@ -8,8 +8,8 @@
 #Sentencias de repetición
 
 ##Ejemplo 1
-$ipcon=ls
-$ipcon
+$ficheros=ls
+$ficheros
 
 ##Ejemplo 2
 $listado=ls
