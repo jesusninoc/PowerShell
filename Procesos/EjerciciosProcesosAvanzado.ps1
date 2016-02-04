@@ -47,7 +47,7 @@ Get-Process -Name sublime_text -Module
 #---------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------
 #Qué relación con los ficheros que están en la carpeta del programa
-#Todos los ficheros que están dentro de la carpeta valen para algo?, mirarlo en modules y dlls
+#Todos los ficheros que están dentro de la carpeta valen para algo?, ayuda en modules y dlls
 #Comparar los ficheros que se están ejecutados y los que están en la carpeta
 Get-Process -Name sublime_text | Select-Object Path
 
