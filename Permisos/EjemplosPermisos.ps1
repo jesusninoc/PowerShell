@@ -1,2 +1,2 @@
 #Obtener permisos de un recurso
-Get-Acl d
+Get-Acl d:
