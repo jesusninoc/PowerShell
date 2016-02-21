@@ -5,3 +5,6 @@ Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "TareaProgram
 
 #Crear una tarea programada que ejecuta Notepa
 Register-ScheduledTask Task01 -Action (New-ScheduledTaskAction -Execute "notepad") -Principal (New-ScheduledTaskPrincipal -GroupId "BUILTIN\administradores" -RunLevel Highest) -Settings (New-ScheduledTaskSettingsSet -RestartCount 5 -RestartInterval 60)
+
+#Crear una tarea programada en un equipo remoto
+1..254 | %{Invoke-Command -ComputerName ('192.168.1.'+$_) {Register-ScheduledTask Task01 -Action (New-ScheduledTaskAction -Execute "notepad") -Principal (New-ScheduledTaskPrincipal -GroupId "BUILTIN\administradores" -RunLevel Highest) -Settings (New-ScheduledTaskSettingsSet -RestartCount 5 -RestartInterval 60)}}
