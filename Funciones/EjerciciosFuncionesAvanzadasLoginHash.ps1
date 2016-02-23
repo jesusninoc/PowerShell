@@ -1,6 +1,6 @@
 #################################################################################
 #Función login de user y pass
-#El user y pass correcto se escriben en el bloque BEGIN
+#El user y pass (hash en MD5) correcto se escriben en el bloque BEGIN
 
 #Ejecutar la función
 #PS C:\Users\usuario> loginH user pass
