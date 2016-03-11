@@ -49,3 +49,16 @@ switch($sli[0])
 'a'{Write-Host "Add user into a group";net localgroup $sli[2] $sli[1] /add}
 }
 }
+
+#Ejemplo 7
+#http://www.jesusninoc.com/2015/02/21/crear-un-recurso-compartido/
+foreach($val in Get-Content D:\usergroup.txt)
+{
+$sli=$val.Split(",")
+switch($sli[0])
+{
+'u'{Write-Host "Create user, directory and share";net user $sli[1] /add $sli[2];[string]$ruta="d:\"+$sli[1];New-Item $ruta -ItemType directory;[string]$aux=$sli[1];New-SmbShare -Name $aux -Path $ruta}
+'g'{Write-Host "Create group";net localgroup $sli[1] /add}
+'a'{Write-Host "Add user into a group";net localgroup $sli[2] $sli[1] /add}
+}
+}
