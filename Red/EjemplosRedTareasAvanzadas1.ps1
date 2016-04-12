@@ -28,6 +28,7 @@ Get-NetNeighbor | Where-Object IPAddress -EQ $ip | Select-Object LinkLayerAddres
 #Otra solución
 1..254|%{$ip="192.168.1."+$_;$ip;(NetNeighbor $ip).LinkLayerAddress}
 
+#Recorrer IP's de un rango y obtener parte de fabricante de la MAC
 1..254|%{
 $ip="192.168.1."+$_
 $mac=[String](Get-NetNeighbor | Where-Object IPAddress -EQ $ip | Select-Object LinkLayerAddress).LinkLayerAddress
