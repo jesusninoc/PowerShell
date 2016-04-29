@@ -5,7 +5,6 @@
 ###########
 
 Invoke-WebRequest 'http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.csv' -OutFile d:\service-names-port-numbers.csv
-
 $portscsv=Import-Csv d:\service-names-port-numbers.csv
 $listado=$portscsv | Select-Object 'Service Name','Port Number','Transport Protocol' | Where-Object 'Transport Protocol' -EQ udp
 Get-NetUDPEndpoint | Select-Object Localaddress,Localport | %{$_.Localaddress; $listado | Select-Object 'Service Name','Port Number' | Where-Object 'Port Number' -EQ $_.Localport}
