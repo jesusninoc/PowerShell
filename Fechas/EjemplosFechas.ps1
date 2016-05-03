@@ -1,4 +1,4 @@
-#Fecha y propiedades
+#Fechas y propiedades
 (Get-Date)
 (Get-Date).Year
 
