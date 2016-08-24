@@ -8,7 +8,7 @@
 (Get-WmiObject -Class Win32_Product).version
 (Get-WmiObject -Class Win32_Product) | Select-Object name,version
 
-#Agrupa los programas cuyo nombre sea "Microsoft Office Proof (Spanish) 2007"
+#Agrupa los programas cuyo nombre sea "MySQL"
 (Get-WmiObject -Class Win32_Product) | Select-String "MySQL" | Group-Object
 
 #Dime si está instalado Gimp
