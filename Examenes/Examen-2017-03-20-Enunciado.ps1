@@ -9,7 +9,7 @@
 #Crea con todos los pasos en PowerShell, un proceso de seguridad para asegurar que un programa no ha sido modificado (desde contar procesos hasta mirar procesos, rutas, etc.), también puedes tener en cuenta DLL y controladores.
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
-#Pedir un proceso en Linux: Comprobar la ruta y el hash (hay un listado de hash para los programas que hay en el sistema). Comprobar si hay algún drivers cambiado (hay un listado de hash para los drivers).
+#Comprobar la ruta de un proceso y el hash (hay un listado de hash para los programas que hay en el sistema). Comprobar si hay algún drivers cambiado (hay un listado de hash para los drivers).
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
 #Ver si hay algún programa que no se ha actualizado, comparar con las actualizaciones instaladas.
