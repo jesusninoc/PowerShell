@@ -1,12 +1,12 @@
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
-HAZ CAPTURAS DE TODO LO QUE HAGAS
+#HAZ CAPTURAS DE PANTALLA DE TODO LO QUE HAGAS
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
 
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
-#Crea con todos los pasos en PowerShell, un proceso de seguridad para asegurar que un programa no ha sido modificado (desde contrar procesos, hasta mirar procesos, rutas, etc.), también puedes tener en cuenta DLL y controladores.
+#Crea con todos los pasos en PowerShell, un proceso de seguridad para asegurar que un programa no ha sido modificado (desde contar procesos hasta mirar procesos, rutas, etc.), también puedes tener en cuenta DLL y controladores.
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
 #Pedir un proceso en Linux: Comprobar la ruta y el hash (hay un listado de hash para los programas que hay en el sistema). Comprobar si hay algún drivers cambiado (hay un listado de hash para los drivers).
@@ -19,9 +19,9 @@ HAZ CAPTURAS DE TODO LO QUE HAGAS
 
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
-TEN EN CUENTA:
+#TEN EN CUENTA
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
-La seguridad de todo lo que hagas
+#La seguridad de todo lo que hagas.
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
