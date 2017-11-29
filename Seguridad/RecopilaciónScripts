@@ -19,6 +19,9 @@
 #Ver los programas que se están ejecutando desde que se arranca el sistema operativo
 #https://www.jesusninoc.com/2017/11/26/ver-los-programas-que-se-estan-ejecutando-desde-que-se-arranca-el-sistema-operativo/
 
+#Módulos que se están ejecutando
+#https://github.com/jesnino/PowerShell/blob/master/Procesos/EjerciciosProcesosAvanzado.ps1
+
 #Analizar servicios con PowerShell
 #https://www.youtube.com/watch?v=ugGCD6L0udc
 
