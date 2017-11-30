@@ -24,6 +24,7 @@
 
 #Analizar servicios con PowerShell
 #https://www.youtube.com/watch?v=ugGCD6L0udc
+#https://www.jesusninoc.com/2016/11/10/analizar-servicios-con-powershell/
 
 #Informes sobre la situación del sistema (programas, actualizaciones, etc.)
 #https://www.jesusninoc.com/2016/09/18/realizar-una-consulta-wmi-a-las-direcciones-ip-de-un-rango-que-estan-activas-utilizando-credenciales/
