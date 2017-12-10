@@ -29,14 +29,14 @@
 #Informes sobre la situación del sistema (programas, actualizaciones, etc.)
 #https://www.jesusninoc.com/2016/09/18/realizar-una-consulta-wmi-a-las-direcciones-ip-de-un-rango-que-estan-activas-utilizando-credenciales/
 
+#Detectar si hay un dispositivo USB conectado y copiar el contenido en una carpeta temporal
+#https://github.com/jesnino/PowerShell/blob/master/Seguridad/Detectar%20si%20hay%20un%20dispositivo%20USB%20conectado%20y%20copiar%20el%20contenido%20en%20una%20carpeta%20temporal.ps1
+
 #Detectar la ejecución de un programa
 #https://www.jesusninoc.com/2017/09/04/mostrar-un-mensaje-en-powershell-cuando-se-ejecuta-un-programa/
 
 #Conceptos básicos de cifrado
 #https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
-
-#Detectar si hay un dispositivo USB conectado y copiar el contenido en una carpeta temporal
-#https://github.com/jesnino/PowerShell/blob/master/Seguridad/Detectar%20si%20hay%20un%20dispositivo%20USB%20conectado%20y%20copiar%20el%20contenido%20en%20una%20carpeta%20temporal.ps1
 
 #Temperatura equipos
 #Garantizar CIDAN
