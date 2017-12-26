@@ -41,10 +41,16 @@
 #Detectar la ejecución de un programa
 #https://www.jesusninoc.com/2017/09/04/mostrar-un-mensaje-en-powershell-cuando-se-ejecuta-un-programa/
 
-#Conceptos básicos de cifrado
-#https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
+#Ofuscación en PowerShell
+#https://www.youtube.com/watch?v=uYuI5OADJgQ
+#https://github.com/jesusninoc/PowerShell/blob/master/Seguridad/Introducci%C3%B3n%20a%20la%20ofuscaci%C3%B3n%20en%20PowerShell.ps1
+#https://www.jesusninoc.com/2017/12/01/ofuscacion-en-powershell/https://github.com/jesusninoc/PowerShell/blob/master/Seguridad/Introducci%C3%B3n%20a%20la%20ofuscaci%C3%B3n%20en%20PowerShell.ps1
+#https://github.com/jesusninoc/PowerShell/blob/master/Seguridad/Ejemplos%20de%20ofuscacion.ps1
 
 #Temperatura equipos
+#https://www.jesusninoc.com/2016/08/25/ver-la-temperatura-del-equipo/
+#https://www.jesusninoc.com/2016/08/28/ver-la-temperatura-de-los-equipos-que-hay-en-la-red-local-utilizando-credenciales-almacenados-en-un-fichero/
+
 #Garantizar CIDAN
 #Analizar amenzas en la empresa
 #Procedimiento para crear usuarios
@@ -65,6 +71,9 @@
 #Averiguar si una dirección IP es estática leyendo desde un fichero las direcciones
 #Analizar puertos de una dirección IP
 #Scripts correos
+
+#Conceptos básicos de cifrado
+#https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
 
 ##################################################
 #Herramientas
