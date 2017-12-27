@@ -78,6 +78,8 @@
 #Conceptos básicos de cifrado
 #https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
 #https://github.com/jesusninoc/ClasesISO/blob/master/2018-01-25
+#Criptografía en PowerShell
+#https://www.jesusninoc.com/2017/02/01/criptografia-en-powershell/
 
 ##################################################
 #Herramientas
