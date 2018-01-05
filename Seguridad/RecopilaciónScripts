@@ -55,6 +55,23 @@
 #Usuario que ejecuta un proceso
 #https://www.jesusninoc.com/2013/02/02/select-process-and-user/
 
+#Contraseñas seguras con PowerShell
+#https://www.jesusninoc.com/contrasenas-seguras-con-powershell/
+#Brute Force
+#https://www.jesusninoc.com/brute-force/
+#Ataque de fuerza bruta con Burp Suite Intruder
+#https://www.jesusninoc.com/2016/02/23/ataque-de-fuerza-bruta-con-burp-suite-intruder/
+
+#Conceptos básicos de cifrado
+#https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
+#https://github.com/jesusninoc/ClasesISO/blob/master/2018-01-25
+#Criptografía en PowerShell
+#https://www.jesusninoc.com/2017/02/01/criptografia-en-powershell/
+
+##################################################
+#Otros scripts
+##################################################
+
 #Garantizar CIDAN
 #Analizar amenzas en la empresa
 #Procedimiento para crear usuarios
@@ -76,22 +93,10 @@
 #Analizar puertos de una dirección IP
 #Scripts correos
 
-#Contraseñas seguras con PowerShell
-#https://www.jesusninoc.com/contrasenas-seguras-con-powershell/
-#Brute Force
-#https://www.jesusninoc.com/brute-force/
-#Ataque de fuerza bruta con Burp Suite Intruder
-#https://www.jesusninoc.com/2016/02/23/ataque-de-fuerza-bruta-con-burp-suite-intruder/
-
-#Conceptos básicos de cifrado
-#https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
-#https://github.com/jesusninoc/ClasesISO/blob/master/2018-01-25
-#Criptografía en PowerShell
-#https://www.jesusninoc.com/2017/02/01/criptografia-en-powershell/
-
 ##################################################
 #Herramientas
 ##################################################
+
 #Crear una notificación en Windows con PowerShell
 #https://www.jesusninoc.com/2017/11/23/crear-una-notificacion-en-windows-con-powershell/
 
@@ -101,6 +106,7 @@
 ##################################################
 Obtener información de los equipos
 ##################################################
+
 #Hacking wifi with Powershell
 #https://www.jesusninoc.com/2015/02/11/hacking-wifi-with-powershell/
 
@@ -113,6 +119,7 @@ https://www.jesusninoc.com/2016/10/21/almacenar-entradas-cache-dns-en-un-fichero
 ##################################################
 #General
 ##################################################
+
 #Seguridad informática con PowerShell
 #https://www.jesusninoc.com/2016/02/28/seguridad-informatica-con-powershell/
 
