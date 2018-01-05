@@ -1,6 +1,7 @@
 ###################################################
 #Recopilación de scripts relacionados con seguridad
 ###################################################
+
 #Crear un listado con los procesos que se están ejecutando
 #https://github.com/jesnino/PowerShell/blob/master/Seguridad/Crear%20un%20listado%20con%20los%20procesos%20que%20se%20est%C3%A1n%20ejecutando.ps1
 #https://www.youtube.com/watch?v=jYcGSQ8Y8-0
@@ -74,6 +75,13 @@
 #Averiguar si una dirección IP es estática leyendo desde un fichero las direcciones
 #Analizar puertos de una dirección IP
 #Scripts correos
+
+#Contraseñas seguras con PowerShell
+#https://www.jesusninoc.com/contrasenas-seguras-con-powershell/
+#Brute Force
+#https://www.jesusninoc.com/brute-force/
+#Ataque de fuerza bruta con Burp Suite Intruder
+#https://www.jesusninoc.com/2016/02/23/ataque-de-fuerza-bruta-con-burp-suite-intruder/
 
 #Conceptos básicos de cifrado
 #https://github.com/jesnino/PowerShell/blob/master/Seguridad/Conceptos%20b%C3%A1sicos%20de%20cifrado.ps1
