@@ -29,3 +29,12 @@ Get-EventLog Application | Where-Object Message -Match "192.168" | Select-Object
 
 #Información sobre el mensaje "explore", analizar el proceso Explore
 Get-EventLog Application | Where-Object Message -Match "explore" | Select-Object Message | Format-Custom
+
+#Mostrar logs por fecha
+$today = Get-Date
+$1day = New-TimeSpan -Days 1
+$yesterday = $today - $1day
+Get-EventLog -LogName system -EntryType Error, Warning -After $yesterday
+
+#Primeros 40 registros del log
+Get-EventLog -LogName System -EntryType Error -Newest 40
