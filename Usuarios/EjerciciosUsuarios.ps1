@@ -10,7 +10,7 @@ Get-WmiObject -Query "SELECT * FROM Win32_Account" | Select-Object Name
 Get-WmiObject -Class Win32_Account | Select-Object SID
 Get-WmiObject -Query "SELECT * FROM Win32_Account" | Select-Object SID
 
-#Seleccionar los nombre y el SID de usuarios
+#Seleccionar los nombre y los SID de usuarios
 Get-WmiObject -Class Win32_Account | Select-Object Name, SID
 Get-WmiObject -Query "SELECT * FROM Win32_Account" | Select-Object SID
 
