@@ -1,2 +1,1 @@
 # PowerShell
-Clases de PowerShell
