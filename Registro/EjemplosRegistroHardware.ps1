@@ -1,4 +1,4 @@
-#Gracias a Diego
+#Realizado por Diego
 #https://github.com/DiegoAlfa
 
 cls
