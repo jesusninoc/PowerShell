@@ -46,5 +46,3 @@ ls (ps -Module | Select-Object Filename).Filename | Select VersionInfo | Format-
 
 #Dónde se conectan los procesos
 netstat -ano
-
-#Preguntar en Internet qué hacen los procesos
