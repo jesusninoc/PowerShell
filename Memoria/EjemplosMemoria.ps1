@@ -7,7 +7,7 @@ Get-WmiObject Win32_PhysicalMemory | Select-Object ConfiguredClockSpeed
 #Voltaje configurado para los dispositivos de memoria en milivoltios
 Get-WmiObject Win32_PhysicalMemory | Select-Object ConfiguredVoltage
 
-#Capacidad de la memoria en bytes
+#Capacidad de la memoria en GB
 Get-WmiObject Win32_PhysicalMemory | ForEach-Object {$_.capacity / 1GB}
 
 #Tipo de memoria
