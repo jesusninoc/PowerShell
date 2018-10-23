@@ -4,7 +4,12 @@
 #"_ASUS_ - 1072009" | Out-File bios.txt -Append
 
 gc .\bios.txt | %{
-if((Get-WmiObject Win32_BIOS).version -eq $_)
-{
-"Actualizar BIOS del equipo"+(hostname)
+    if((Get-WmiObject Win32_BIOS).version -eq $_)
+    {
+        "Actualizar BIOS del equipo"+(hostname)
+    }
+    else
+    {
+        "BIOS actualizada en "+(hostname)
+    }
 }
