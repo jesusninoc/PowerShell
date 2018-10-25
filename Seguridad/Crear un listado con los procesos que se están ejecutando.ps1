@@ -24,9 +24,9 @@ Get-Process | Select-Object ProcessName | Group-Object ProcessName | Select-Obje
 ##############################
 #Almacenar en el fichero el listado de procesos
 $nombre=(Get-Date).tostring("hh-mm-ss-dd-MM-yyyy");$nombre
-Get-Process | Select-Object ProcessName | Out-File $nombre
+$procesos=Get-Process | Select-Object ProcessName | Out-File $nombre
 #Contar el número de procesos que se guardan en el fichero
-(Get-Content $nombre).Length
+(Get-Content $procesos).Length
 
 #Arrancar el proceso notepad para comprobar que se añade un proceso nuevo al listado de procesos
 Start-Process notepad
