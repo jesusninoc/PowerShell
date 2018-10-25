@@ -48,8 +48,8 @@ Compare-Object -ReferenceObject (Get-Content $nombre) -DifferenceObject (Get-Con
 ##############################
 #Almacenar en el fichero el listado de procesos
 $nombre=(Get-Date).tostring("hh-mm-ss-dd-MM-yyyy");$nombre
-Get-Process | Select-Object ProcessName | Group-Object ProcessName | Select-Object Name | Out-File $nombre
-(Get-Content $nombre).Length
+$procesos=Get-Process | Select-Object ProcessName | Group-Object ProcessName | Select-Object Name | Out-File $nombre
+(Get-Content $procesos).Length
 
 #Arrancar el proceso notepad para comprobar que se añade un proceso nuevo al listado de procesos
 Start-Process notepad
