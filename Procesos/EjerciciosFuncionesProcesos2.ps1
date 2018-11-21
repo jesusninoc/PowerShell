@@ -31,7 +31,7 @@ function ProcesosConsumo([String]$parametro,[Int]$valor,[Int]$numerovalores)
 $parametro
 $valor
 $numerovalores
-Get-Process | Select-Object -First $numerovalores | Where-Object $parametro -GT $valor
+Get-Process | Where-Object $parametro -GT $valor | Select-Object -First $numerovalores
 }
 ProcesosConsumo CPU 30 5
 
