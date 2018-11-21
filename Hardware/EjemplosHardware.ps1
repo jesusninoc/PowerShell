@@ -1,6 +1,6 @@
 #Sistema operativo instalado sobre una partición
 (Get-WmiObject Win32_AutochkSetting).SettingID
-Ejemplo
+#Ejemplo
 if((Get-WmiObject Win32_AutochkSetting).SettingID -match "8.1"){"No actualizado a 10"}
 
 #Fabricante de placa base
