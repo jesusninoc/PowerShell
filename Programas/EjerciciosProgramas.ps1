@@ -1,7 +1,7 @@
 #Número de programas instalados (count)
 ((Get-WmiObject -Class Win32_Product).name).count
 
-#Selecciona el nombre y versión de los programas instalados
+#Selecciona el nombre y vendor de los programas instalados
 (Get-WmiObject -Class Win32_Product) | Select-Object name,vendor
 
 #Dime la versión de los programas instalados
