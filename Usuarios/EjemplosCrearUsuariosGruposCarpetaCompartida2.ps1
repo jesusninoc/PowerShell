@@ -1,11 +1,11 @@
--------------------
+#-------------------
 #1. Ejecutar bucle y partir contenido
 foreach($val in Get-Content "C:\user.txt")
 {
 $sli=$val.Split(",")
 }
 
-------------------
+#------------------
 #2. Los valores que sean dos se muestra el mensaje de crear grupo
 foreach($val in Get-Content "C:\user.txt")
 {
@@ -17,7 +17,7 @@ if($sli.Length -eq 2)
 }
 }
 
------------------
+#-----------------
 #3. Colocamos la posibilidad de error cuando no es 2
 foreach($val in Get-Content C:\user.txt)
 {
@@ -33,7 +33,7 @@ Write-Host "Error"
 }
 }
 
------------------
+#-----------------
 #4. Tenemos un nuevo caso, cuando son 4 valores
 foreach($val in Get-Content C:\user.txt)
 {
@@ -52,7 +52,7 @@ Write-Host "Error"
 }
 }
 
-----------------
+#----------------
 #5. Crear el grupo, caso dos valores
 foreach($val in Get-Content "C:\user.txt")
 {
@@ -65,7 +65,7 @@ if($sli.Length -eq 2)
 }
 }
 
-----------------
+#----------------
 #6. Crear usuario, caso cuatro valores
 foreach($val in Get-Content C:\user.txt)
 {
@@ -86,7 +86,7 @@ Write-Host "Error"
 }
 }
 
-----------------
+#----------------
 #7. Añadir usuario al grupo, pero el grupo debe existir
 foreach($val in Get-Content C:\user.txt)
 {
@@ -108,7 +108,7 @@ Write-Host "Error"
 }
 }
 
---------------
+#--------------
 #8. Comandos añadidos para añadir usuario al grupo, pero el grupo debe existir
 foreach($val in Get-Content C:\user.txt)
 {
@@ -133,7 +133,7 @@ Write-Host "Error"
 }
 }
 
------------
+#-----------
 #9. Compartir
 foreach($val in Get-Content C:\user.txt)
 {
@@ -163,7 +163,7 @@ Write-Host "Error"
 }
 }
 
-----------
+#----------
 #10. Read file, create users and groups, add a user in a group, create a directory for each user and share
 #Create file. 
 #Content:
