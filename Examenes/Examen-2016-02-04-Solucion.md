@@ -1,0 +1,1 @@
+* https://www.jesusninoc.com/02/08/ejercicios-de-powershell-realizar-un-programa-que-pida-al-usuario-un-proceso-y-almacene-el-nombre-de-todos-los-ficheros-dll-de-dicho-proceso-junto-con-su-hash-en-un-fichero/
